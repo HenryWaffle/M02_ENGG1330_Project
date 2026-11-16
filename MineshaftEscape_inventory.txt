@@ -1,0 +1,5 @@
+Drill engine parts: 0
+Drill head parts: 0
+Drill body parts: 0
+Fuel tank parts: 0
+Complete drill amount: 0
