@@ -1,3 +1,0 @@
-Game Name: Mineshaft Escape
-
-
