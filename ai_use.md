@@ -8,7 +8,7 @@ If no group member used AI, no entries are needed. Otherwise add an entry for ea
 
 - Member and date: 11 November 2026
 - Tool and model/version, where available: Copilot on VS code + Capcut
-- Purpose: Debugging, Clear_screen() function and get_key() function
+- Purpose: Debugging, Clear_screen() function and get_key() function; Game trailer voiceover
 - Relevant prompts and outputs used, or retained transcript location: 
 1. "How to clear the screen before every new output, and how to make an input only read what key is pressed?" Output the clear_screen() function and the get_key() function
 2. "Can you debug the code for any bugs?" Output: suggestions on game design, but no errors given.
