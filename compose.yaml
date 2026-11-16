@@ -6,7 +6,7 @@ services:
     image: engg1330-project:2026-v03
     working_dir: /workspace
     volumes:
-      - ./project:/workspace
+      - ./workspace
     init: true
     stdin_open: true
     tty: true
