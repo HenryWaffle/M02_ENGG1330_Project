@@ -6,13 +6,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ncurses-bin ripgrep file jq \
     && rm -rf /var/lib/apt/lists/*
 RUN printf '%s\n' '. /usr/share/bash-completion/bash_completion' >> /etc/bash.bashrc
-COPY vimrc /etc/vim/vimrc
 RUN useradd --create-home --uid 1000 --shell /bin/bash student
-COPY entrypoint.sh /usr/local/bin/course_entrypoint
-RUN chmod 755 /usr/local/bin/course_entrypoint
-COPY requirements.txt /tmp/requirements.txt
-RUN python -m pip install --no-cache-dir -r /tmp/requirements.txt && python -m pip check
 WORKDIR /workspace
 USER student
-ENTRYPOINT ["/usr/local/bin/course_entrypoint"]
-CMD ["python", "tic_tac_toe.py"]
+
+CMD ["python", "main.py"]
