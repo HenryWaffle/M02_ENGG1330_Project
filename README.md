@@ -20,7 +20,7 @@ You are trapped in an abandoned mineshaft, you need to complete a series of puzz
 
 ## Running the Game
 
-Extract the zip file, change directory to M02_ENGG1330_Project, and to run from docker, run the command: docker compose run --rm game
+Extract the zip file, change directory to M02_ENGG1330_Project, and to run from docker, run the command: docker compose run --rm game bash. To play the game type the command: python3 main.py
 
 ## How to play
 
